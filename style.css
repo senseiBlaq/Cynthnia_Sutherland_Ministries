@@ -34,6 +34,10 @@ body {
     text-decoration: none;
     
 }
+.nav--items > a:hover {
+    text-decoration: underline;
+
+}
 
 /* showcase */
 .showcase--container {
@@ -56,4 +60,10 @@ body {
 .showcase_img--container {
     flex: 1;
     display: row;
+    align-self: flex-end;
+    margin: 0px 10px 0px 0px;
+}
+.showcase_img--container img {
+    width: 400px;
+    /* height: 250px; */
 }
