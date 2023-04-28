@@ -16,6 +16,7 @@ body {
     margin: 10px 0px 0px 100px;
     flex: 1;
 }
+
 .nav--menu {
     display: flex;
     flex: 2;
@@ -66,4 +67,41 @@ body {
 .showcase_img--container img {
     width: 400px;
     /* height: 250px; */
+}
+
+.forms--container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0 0 0;
+}
+.forms--container h3 {
+    padding: 10px;
+}
+.forms--container button {
+    width: 250px;
+    background-color: #023c3e;
+    color: aliceblue;
+}
+
+/* Cards */
+.cards--container {
+    padding: 30px 0 0 0;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(253, 253, 253);
+}
+.card--img {
+    flex: 1;
+    width: 400px;
+}
+.text--cointainer {
+    width: 300px;
+}
+
+/* Footer */
+.footer--container{
+    display: flex;
+    justify-content: center;
 }
